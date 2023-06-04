@@ -10,22 +10,8 @@ body{
     align-items: center;
     height: 100vh;
     font-family: 'Red Hat Display', sans-serif;
-}
-.back{
-    position: absolute;
-    background-color: transparent;
-    width: 100%;
-    top: 0;
-    z-index: -1;
-}
-.back img:nth-child(1){
-    width: 100%;
-    height: auto;
-    background-color: transparent;
-}
-.back img:nth-child(2){
-    width: 0;
-    height: 0;
+    background: url(./images/pattern-background-desktop.svg) no-repeat, #E1E9Ff;
+    background-size: contain;
 }
 .card{
     display: flex;
@@ -139,16 +125,6 @@ body{
     }
     .content{
         padding: 0px 30px;
-    }
-    .back img:nth-child(2){
-        width: 100%;
-        background-color: transparent;
-        height: auto;
-        top: 0;
-    }
-    .back img:nth-child(1){
-        width: 0;
-        height: 0;
     }
     body{
         height: 80vh;
